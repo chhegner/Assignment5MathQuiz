@@ -18,7 +18,7 @@ int main()
 	string questions = "C:\\temp\\questions.txt"; //the text document that stores all the possible questions that can be asked
 	string quizResults = "C:\\temp\\QuizResults.txt"; //the file the questions asked and answers input get output to for grading
 	string questionAsked; //Stores the last question the user was asked in the form of a string. Changes during program runtime.
-	int userInput; //the number the user input as their answer, prior to being converted to a string for outputting to a file
+	int userInput; //the number the user input as their answer
 
 	// call this once before you call rand()
 	srand(time(NULL)); // initialize the random number generator
